@@ -32,7 +32,7 @@ class LinkedList(object):
 
 def insert_nth(head, data, position):
     """Insert a node with data at a given position, return head."""
-    new_node = Node(data, None)
+    new_node = Node(data)
     if head is None or position == 0:
         new_node.next = head
         head = new_node
