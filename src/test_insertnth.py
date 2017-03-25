@@ -26,5 +26,5 @@ def test_new_node_inserted_further_down_list():
 def test_linked_list_only_takes_iterable_data():
     """Error when non iterable data passed to linked list."""
     with pytest.raises(TypeError) as message:
-        my_list = LinkedList(7)
+        LinkedList(7)
     assert 'Please enter an object that is iterable.' in str(message)
