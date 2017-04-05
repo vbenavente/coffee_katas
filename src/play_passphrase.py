@@ -21,4 +21,4 @@ def play_pass(s, n):
                 item = item
         new_s += str(item)
         counter += 1
-    return new_s
+    return new_s[::-1]
